@@ -1,0 +1,102 @@
+.Logo{
+ width: 400px;
+ height: auto;
+ align-self: center;
+}
+
+.img_productos{
+    align-self: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.img_historia{
+    align-self: center;
+    border-radius: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: wheat;
+}
+
+nav a{
+    color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+p{
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    color: whitesmoke;
+}
+
+h3{
+    color: white;
+}
+
+header{
+    background-color: #324851;
+    padding: 10px;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.Productos_1{
+    flex: 45px;
+    text-align: center;
+    background-color: #86ac41;
+}
+
+.Productos{
+    padding: 10px;
+}
+
+
+.Historia_1{
+    flex: 55%;
+    background-color: #324851;
+    padding: 10px ;
+}
+
+.Historia_2{
+    padding: 20px ;
+}
+
+.Historia_3{
+    padding: 20px ;
+    background-color:#86ac41 ;
+}
+
+
+.Historia{
+    padding: 10px;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: #86ac41;
+    color: white;
+}
+
+.Redes{
+    color: white;
+}
+
+@media screen and (max-width:700px){
+    nav, .row{
+        flex-direction: column;
+    }
+}
+
